@@ -30,7 +30,7 @@ while len(search_space) > 0:
     # remove a node from the search space (FILO)
     current: Node = search_space.pop( None ) # TODO
 
-    # if a None child is not being processed...
+    # if a None child is not being processed.....
     if current != None:
         # print the node's value
         print(current.value)
